@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".TotalPageActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Call Taxi App"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="คำนวณค่าแท๊กซี่" />
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/taxi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_margin="16dp"
+        android:background="#123456"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+    <TextView
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="ค่าแท๊กซี่คิดเป็นเงิน"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:background="#67a921"
+        android:gravity="center"
+        android:text="0.00"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="บาท"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_margin="16dp"
+        android:background="#123456"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+</LinearLayout>
